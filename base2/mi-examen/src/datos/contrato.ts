@@ -4,7 +4,7 @@
 // ----------------------------------------------------------------------------
 // Las tres fuentes de datos (memoria, json, api) implementan ESTA interfaz.
 // El resto de la aplicación consume la fuente sin saber cuál hay detrás.
-//
+// define la interfaz fuentedatos que establece los metodos que deben implementar las tres fuentes de datos
 // Los tipos se importan desde src/dominio: usted debe definirlos ahí,
 // derivándolos de las pantallas. Este archivo compila contra sus nombres.
 // ============================================================================

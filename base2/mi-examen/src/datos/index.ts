@@ -7,6 +7,7 @@
 // que depende de su framework es DE DÓNDE se lee la variable, y eso vive en
 // el archivo editable ./configuracion.ts (función leerFuente()).
 //
+// lee la fuente seleccionada en configuracion y devuelve la implementacion correspondiente
 // Usted debe crear, junto a este archivo, las tres implementaciones:
 //   datos.memoria.ts  -> export const fuenteMemoria: FuenteDatos
 //   datos.json.ts     -> export const fuenteJson: FuenteDatos

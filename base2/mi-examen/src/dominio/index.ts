@@ -1,7 +1,7 @@
 export interface Servicio {
   id: number;
   nombre: string;
-  precioUnitario: number;
+  precio: number;
   disponibles: number;
   activo: boolean;
 }
@@ -15,7 +15,10 @@ export interface Cliente {
 
 export type NuevoCliente = Omit<Cliente, "id">;
 
-export type EstadoOrden = "PENDIENTE" | "LISTA" | "CANCELADA";
+export type EstadoOrden =
+  | "PENDIENTE"
+  | "LISTA"
+  | "CANCELADA";
 
 export interface Orden {
   id: number;
